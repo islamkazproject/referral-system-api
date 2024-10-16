@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "referral-system-api"
+version = "0.1.0"
+description = "API для реферальной системы"
+authors = ["islam <islamkazproject@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
